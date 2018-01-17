@@ -1,0 +1,29 @@
+$primary-color: #009a9a;
+$secondary-color: #e12631;
+
+//---------------------------------//
+
+html, body
+  position: relative
+  margin: 0
+  padding: 0
+  background: $primary-color
+  height: 100%
+
+a
+  color: $secondary-color
+  &:hover
+    color: darken($secondary-color, 30%)
+
+.navbar
+  box-shadow: 0 0 1em rgba(0,0,0,.5)
+  margin-bottom: 0
+
+.App-logo
+  max-height: 100%
+  float: left
+
+.App-body
+  box-shadow: 0 0 1em rgba(0,0,0,.5)
+  background: linear-gradient(#fff, #ccc)
+  padding: 1em
